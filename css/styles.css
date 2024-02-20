@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -24,6 +28,16 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.container {
+    width: 1158px;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 a:hover,
 a:focus {
     color: #404bbf;
@@ -35,15 +49,23 @@ button:focus {
     background-color: #404bbf;
     cursor: pointer;
 }
+/* creating flex countainer on page header */
+
+.header-main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .header-nav {
+    display: flex;
+    justify-content: space-between;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -54,14 +76,17 @@ button:focus {
     color:#4d5ae5;
     text-transform: uppercase;
 }
- /* problem- kolor znacznika (brak akcptacji przez autosprawdzanie) */
+
 .header-main span {
     color: #2e2f42;
 }
 
-
+.header-nav-ul {
+    display: flex;
+}
 
 .address {
+    display: flex;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -69,6 +94,12 @@ button:focus {
     color: #434455;
     font-style: normal;
 }
+
+.address-li {
+    display: inline-flex;
+}
+
+/* HERO page */
 
 .hero {
     color: #FFFFFF;
