@@ -17,26 +17,21 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 body {
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-}
-
-.container {
-    flex-basis: 1158px;
-    padding: 0 15px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
+    }
 
 a:hover,
 a:focus {
@@ -49,17 +44,27 @@ button:focus {
     background-color: #404bbf;
     cursor: pointer;
 }
+
+.container {
+    flex-basis: 1158px;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 /* creating flex countainer on page header */
 
 .header-main .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 525px;
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -100,6 +105,7 @@ button:focus {
 
 .address-li {
     display: inline-flex;
+    padding-left: 40px;
 }
 
 /* HERO page */
