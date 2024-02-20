@@ -113,9 +113,16 @@ button:focus {
 .hero {
     color: #FFFFFF;
     background-color: #2E2F42;
+    display: block;
 }
 
+
 .hero-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 496px;
+    padding-top: 188px;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -124,6 +131,7 @@ button:focus {
 }
 
 .hero-button {
+    display: flex;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
