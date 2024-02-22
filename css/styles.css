@@ -52,7 +52,6 @@ button:focus {
     align-items: center;
     padding: 0 15px;
     margin: 0 auto;
-    width: 1158px;
 }
 
 /* creating flex countainer on page header */
@@ -67,6 +66,7 @@ button:focus {
     justify-content: space-between;
     align-items: center;
     margin: 0 525px;
+    width: 1158px;
 }
 
 .header-nav {
