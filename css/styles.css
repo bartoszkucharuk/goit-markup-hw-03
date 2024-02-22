@@ -116,7 +116,7 @@ button:focus {
     font-style: normal;
 }
 
-.address-li {
+.address-ul {
     display: flex;
     gap: 40px;
 }
