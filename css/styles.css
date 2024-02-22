@@ -226,6 +226,11 @@ flex-basis: calc((100% - 3 * 24px) / 4)
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+}
+
+.team-item:ntn-child(1){
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-name {
