@@ -117,8 +117,8 @@ button:focus {
 }
 
 .address-li {
-    display: inline-flex;
-    padding-left: 40px;
+    display: flex;
+    gap: 40px;
 }
 
 /* HERO page */
