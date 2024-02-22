@@ -100,7 +100,10 @@ button:focus {
 .header-nav-ul {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+}
+
+.header-nav-li {
+        padding: 24px 0;
 }
 
 .address {
