@@ -203,7 +203,7 @@ flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 /* section 3 - TEAM*/
-.section {
+.team {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
