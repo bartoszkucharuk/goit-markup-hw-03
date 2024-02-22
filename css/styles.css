@@ -170,6 +170,7 @@ button:focus {
 }
 
 .features-header {
+    /* wzorzec .VISUALLY-HIDDEN */
     position: absolute;
     width: 1px;
     height: 1px;
@@ -181,6 +182,11 @@ button:focus {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
 }
 
 .features-name {
