@@ -56,12 +56,15 @@ button:focus {
 
 /* creating flex countainer on page header */
 
-.header-main .container {
+
+.header-main {
+        border-bottom: 1px solid #e7e9fc;
+}
+    .header-main .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 525px;
-    border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
