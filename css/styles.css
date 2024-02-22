@@ -102,8 +102,9 @@ button:focus {
     gap: 40px;
 }
 
-.header-nav-li {
-        padding: 24px 0;
+.nav-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address {
