@@ -202,8 +202,10 @@ flex-basis: calc((100% - 3 * 24px) / 4)
     margin-bottom: 8px;
 }
 
-.team {
+/* section 3 - TEAM*/
+.section {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-header {
@@ -214,8 +216,14 @@ flex-basis: calc((100% - 3 * 24px) / 4)
     text-transform: capitalize;
     color: #2e2f42;
     text-align: center;
-
+    margin-bottom: 72px;
 }
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
 .team-item {
     background-color: #FFFFFF;
 }
