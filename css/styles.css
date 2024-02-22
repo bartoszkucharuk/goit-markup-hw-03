@@ -189,6 +189,10 @@ button:focus {
     gap: 24px;
 }
 
+.features-item:nth-child(1) {
+flex-basis: calc((100% - 3 * 24px) / 4)
+}
+
 .features-name {
     font-weight: 500;
     font-size: 20px;
