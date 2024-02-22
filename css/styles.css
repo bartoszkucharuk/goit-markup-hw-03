@@ -135,7 +135,7 @@ button:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 496px;
+    max-width: 496px;
     padding-top: 188px;
     font-size: 56px;
     font-weight: 700;
@@ -145,7 +145,12 @@ button:focus {
 }
 
 .hero-button {
-    display: flex;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
