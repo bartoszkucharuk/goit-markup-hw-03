@@ -65,7 +65,7 @@ button:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 525px;
+    margin: 0 auto;
     width: 1158px;
 }
 
