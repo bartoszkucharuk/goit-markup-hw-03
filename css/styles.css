@@ -283,7 +283,7 @@ button:focus {
     row-gap: 48px;
 }
 
-.portfolio-item:first-child {
+.portfolio-list:first-child {
     width: calc((100% - 48px) / 3);
 }
 
