@@ -261,11 +261,11 @@ button:focus {
 
 .portfolio {
     color:#2E2F42;
-    padding-top: 120px;
 }
 
 .portfolio .container {
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-header {
