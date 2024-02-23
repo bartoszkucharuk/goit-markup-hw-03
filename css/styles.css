@@ -329,23 +329,3 @@ footer a:focus {
 color: #404bbf;
 }
 
-/* linijka 37 do 48
-    <header class="header-main">
-        <div class="container">
-        <nav class="header-nav">
-            <a class="logo" href="./index.html">Web<span>Studio</span></a>
-            <ul class="header-nav-ul">
-                <li class="header-nav-li"><a class="nav-link" href="./index.html">Studio</a></li>
-                <li class="header-nav-li"><a class="nav-link" href="">Portfolio</a></li>
-                <li class="header-nav-li"><a class="nav-link" href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="address">
-            <ul class="address-ul">
-                <li class="address-li"><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="address-li"><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
-        </div>
-
-    </header> */
