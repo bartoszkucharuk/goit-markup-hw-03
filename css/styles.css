@@ -229,7 +229,7 @@ flex-basis: calc((100% - 3 * 24px) / 4)
     border-radius: 0 0 4px 4px;
 }
 
-.team-item:ntn-child(1){
+.team-item:ntn-child(1) {
     flex-basis: calc((100% - 72px) / 4);
 }
 .team-container{
