@@ -56,9 +56,6 @@ button:focus {
     border: 1px solid red;
 }
 
-/* creating flex countainer on page header */
-
-
 .header-main {
     border-bottom: 1px solid #e7e9fc;
 }
