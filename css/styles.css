@@ -257,9 +257,11 @@ button:focus {
     color: #434455;
     text-align: center;
 }
+/* section 4 - PORTFOLIO*/
 
 .portfolio {
     color:#2E2F42;
+    padding-top: 120px;
 }
 
 .portfolio .container {
