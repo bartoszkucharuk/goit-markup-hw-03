@@ -52,6 +52,7 @@ button:focus {
     align-items: center;
     padding: 0 15px;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 /* creating flex countainer on page header */
@@ -130,11 +131,14 @@ button:focus {
     padding: 188px 0;
 }
 
-
-.hero-banner {
+.hero .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 1158px;
+}
+
+.hero-banner {
     max-width: 496px;
     padding-top: 188px;
     font-size: 56px;
@@ -169,6 +173,10 @@ button:focus {
     color: #434455;
 }
 
+.features .container {
+    width: 1158px;
+}
+
 .features-header {
     /* wzorzec .VISUALLY-HIDDEN */
     position: absolute;
@@ -187,10 +195,6 @@ button:focus {
 .features-list {
     display: flex;
     gap: 24px;
-}
-
-.features-item:nth-child(1) {
-flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .features-name {
