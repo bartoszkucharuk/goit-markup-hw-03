@@ -273,9 +273,14 @@ button:focus {
     text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
+    padding-bottom: 72px;
 }
 
-.portfolio-item {
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-application {
