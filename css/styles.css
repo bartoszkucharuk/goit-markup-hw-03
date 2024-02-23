@@ -238,10 +238,7 @@ button:focus {
 }
 
 .team-item .container {
-    padding: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 32px 16px;
 }
 
 .team-name {
