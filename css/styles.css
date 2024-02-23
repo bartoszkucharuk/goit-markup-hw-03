@@ -296,8 +296,13 @@ flex-basis: calc((100% - 3 * 24px) / 4)
     line-height: 1.50;
     letter-spacing: 0.02em;
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
+.footer a {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer-span {
     color: #f4f4fd;
 }
