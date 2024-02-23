@@ -261,7 +261,8 @@ button:focus {
 }
 
 .portfolio {
-    color:#2E2F42
+    color:#2E2F42;
+    padding-top: 120px;
 }
 
 .portfolio-header {
