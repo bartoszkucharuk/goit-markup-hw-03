@@ -138,7 +138,7 @@ button:focus {
 
 .hero-banner {
     max-width: 496px;
-    padding-top: 188px;
+    /* padding-top: 188px; */
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
