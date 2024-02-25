@@ -215,9 +215,9 @@ button:focus {
     padding: 120px 0;
 }
 
-/* .team .container {
+.team .container {
     width: 1158px
-} */
+}
 
 .team-header {
     font-weight: 700;
@@ -272,9 +272,9 @@ button:focus {
     padding-bottom: 120px;
 }
 
-/* .portfolio .container {
+.portfolio .container {
     width: 1158px;
-} */
+}
 
 .portfolio-header {
     font-weight: 700;
