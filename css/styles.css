@@ -7,14 +7,21 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p,
-ul {
+h6 {
     margin: 0;
     padding: 0;
     text-decoration: none;
     color: inherit;
     list-style-type: none;
+}
+
+p,
+ul {
+margin: 0;
+padding: 0;
+text-decoration: none;
+color: inherit;
+list-style-type: none;
 }
 
 a {
@@ -237,6 +244,7 @@ button:focus {
 }
 .team-list .container {
     padding: 32px 0px;
+    width: 264px;
 }
 
 .team-item {
