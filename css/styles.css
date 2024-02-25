@@ -299,6 +299,10 @@ button:focus {
     border-top: none;
 }
 
+.portfolio-list .container p {
+    margin-bottom: 8px;
+}
+
 .portfolio-application {
     font-weight: 500;
     font-size: 20px;
@@ -308,7 +312,7 @@ button:focus {
  }
 
 .portfolio-description {
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
