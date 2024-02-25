@@ -232,7 +232,7 @@ button:focus {
     justify-content: center;
 }
 .team-list .container {
-    padding: 32px 16px;
+    padding: 32px 0px;
 }
 
 .team-item {
