@@ -53,7 +53,7 @@ button:focus {
     padding: 0 15px;
     margin: 0 auto;
     /* making visible area of all of containers */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header-main {
