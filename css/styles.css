@@ -235,7 +235,7 @@ button:focus {
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     max-width: 264px;
 }
 
