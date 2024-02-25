@@ -312,7 +312,8 @@ button:focus {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-}
+    width: 360px;
+ }
 
 .portfolio-application {
     font-weight: 500;
