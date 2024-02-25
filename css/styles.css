@@ -312,10 +312,10 @@ button:focus {
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
  }
 
 .portfolio-description {
-    margin-bottom: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
