@@ -215,6 +215,10 @@ button:focus {
     padding: 120px 0;
 }
 
+/* .team .container {
+    width: 1158px
+} */
+
 .team-header {
     font-weight: 700;
     font-size: 36px;
@@ -267,6 +271,10 @@ button:focus {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+/* .portfolio .container {
+    width: 1158px;
+} */
 
 .portfolio-header {
     font-weight: 700;
